@@ -1,5 +1,7 @@
 {
   "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.minimap.enabled": false,
 
@@ -9,11 +11,15 @@
 
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
+  "files.associations": {
+    "*.json": "json"
+  },
 
   "git.closeDiffOnOperation": true,
   "git.useEditorAsCommitInput": false,
 
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'Fira Code', monospace",
 
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",

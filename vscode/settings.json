@@ -1,9 +1,10 @@
 {
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
 
   "eslint.enable": true,
 
@@ -15,14 +16,29 @@
     "*.json": "json"
   },
 
+  "git.autofetch": true,
   "git.closeDiffOnOperation": true,
   "git.useEditorAsCommitInput": false,
 
-  "terminal.integrated.fontSize": 16,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "redhat.telemetry.enabled": false,
+
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "'Fira Code', monospace",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  "timeline.excludeSources": [
+    "timeline.localHistory"
+  ],
 
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
 
   "[css]": {
     "editor.tabSize": 2,
@@ -57,6 +73,15 @@
     },
     "editor.wordWrap": "on"
   },
+
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
 
   "[typescript]": {
     "editor.tabSize": 2,

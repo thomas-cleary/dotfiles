@@ -19,6 +19,7 @@
   "git.autofetch": true,
   "git.closeDiffOnOperation": true,
   "git.useEditorAsCommitInput": false,
+  "git.confirmSync": false,
 
   "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,

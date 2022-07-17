@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.acceptSuggestionOnEnter": "off",
@@ -26,8 +26,8 @@
 
   "redhat.telemetry.enabled": false,
 
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "'Fira Code', monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
